@@ -1,0 +1,72 @@
+
+{
+  "intents": [
+    {
+      "tag": "Greeting",
+      "patterns": [
+        "Hello",
+        "Hi there",
+        "Hey there",
+        "Good morning",
+        "Hi"
+      ],
+      "responses": [
+        "Hello, how can I assist you today?",
+        "Hi! How can I help?",
+        "Hey there! What’s on your mind?",
+        "Good morning! How may I help you?",
+        "Hi there! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "Goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Take care",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon!",
+        "Take care! Stay awesome!",
+        "Catch you later, alligator!",
+        "Take care, have a fantastic day!"
+      ]
+    },
+    {
+      "tag": "HowAreYou",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "How's it going?",
+        "What's up?",
+        "How's life?"
+      ],
+      "responses": [
+        "I'm doing great, thanks for asking! How about you?",
+        "I'm doing well, how can I assist you?",
+        "All good, how can I help you today?",
+        "I'm great, thanks! What can I do for you?",
+        "Feeling fantastic, how about you?"
+      ]
+    },
+    {
+      "tag": "Thanks",
+      "patterns": [
+        "Thank you!",
+        "Thanks a lot!",
+        "Thanks for your help!",
+        "I appreciate it!"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Anytime! I'm here to help.",
+        "No problem, always happy to assist!",
+        "It’s my pleasure! Let me know if you need anything else."
+      ]
+    }
+  ]
+}
