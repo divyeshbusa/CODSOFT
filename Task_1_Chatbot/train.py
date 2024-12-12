@@ -1,4 +1,4 @@
-print("::::::::::::::::::::::::: train.py is running ::::::::::::::::::::::::::::::::")
+# print("::::::::::::::::::::::::: train.py is running ::::::::::::::::::::::::::::::::")
 
 import json
 from nltk_utils import tokenize, lemmatize, bag_of_words

@@ -1,4 +1,4 @@
-print("::::::::::::::::::::::::: nltk_utils.py is running ::::::::::::::::::::::::::::::::")
+# print("::::::::::::::::::::::::: nltk_utils.py is running ::::::::::::::::::::::::::::::::")
 import nltk
 import numpy as np
 
@@ -26,9 +26,9 @@ def bag_of_words(tokenized_sentence, all_words):
         if w in tokenized_sentence:
             bag[idx] = 1.0
 
-    print("Tokenized sentence:", tokenized_sentence)
-    print("All words:", all_words)
-    print("Bag of Words:", bag)
+    # print("Tokenized sentence:", tokenized_sentence)
+    # print("All words:", all_words)
+    # print("Bag of Words:", bag)
 
     return bag
 

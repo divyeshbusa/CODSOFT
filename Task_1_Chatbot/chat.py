@@ -35,7 +35,7 @@ while True:
     sentence = [lemmatize(w) for w in sentence]
     
     X = bag_of_words(sentence, all_words)
-    print(f"x.shape : {X.shape[0]}")
+    # print(f"x.shape : {X.shape[0]}")
     X = X.reshape(1, X.shape[0])
     X = torch.from_numpy(X).to(device, dtype=torch.float) 
 
