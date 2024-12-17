@@ -200,13 +200,15 @@ while True:
         if check_win(1):
             draw_figures(GREEN)
             draw_lines(GREEN)
+            pygame.display.set_caption ('YOU WIN' )
         elif check_win(2):
             draw_figures(RED)
             draw_lines(RED)
+            pygame.display.set_caption ('AI WIN' )
         else:
             draw_figures(GRAY)
             draw_lines(GRAY)
-
+            pygame.display.set_caption ('DRAW GAME' )
     pygame.display.update()
 
         
